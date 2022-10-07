@@ -1,0 +1,75 @@
+body
+{
+	background-image: linear-gradient(to right top, #3379f1, #4325d9, #ad18c1, #a876a4, #afacb6);
+	background-attachment: fixed;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#What, #What2, #output{
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#player1_name_input, #player2_name_input, #number1, #number2{
+	backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.2);
+	text-emphasis-color: black;
+
+}
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#note{
+	color: red;
+}
+#number1, #number2{
+	width: 750px;
+}
